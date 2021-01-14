@@ -38,5 +38,5 @@ jobs:
       - name: Python command
         run: |
           import platform
-          print(platform.proccessor())
+          print(platform.processor())
         shell: python
