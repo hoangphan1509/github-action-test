@@ -39,3 +39,4 @@ jobs:
         run: |
           import platform
           print(platform.proccessor())
+        shell: python
