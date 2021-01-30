@@ -1,6 +1,6 @@
 {
     "branches": [
-        "master"
+        "main"
     ],
     "repositoryUrl": "https://github.com/hoangphan1509/github-action-test.git",
     "plugins": [
