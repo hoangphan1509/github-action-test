@@ -39,5 +39,8 @@ jobs:
         run: poetry install
         if: steps.cache.outputs.cache-hit != 'true'
 
-      - name: Code Quality
+      - name: Code Format check 
         run: poetry run black . --check
+
+      - name: Code Analysis
+        run: poetry run flake8
